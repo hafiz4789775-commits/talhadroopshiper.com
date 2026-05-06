@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 5 5 5;
+    --foreground: 240 10 3.9;
+    --primary: 0 100 100;
+    --secondary: 280 100 80;
+    --border: 240 5.3 6%;
+    --ring: 240 5.9 10%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#050505] text-white antialiased;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/20;
+  }
+
+  .neon-glow {
+    @apply shadow-[0_0_20px_rgba(0,245,255,0.3),0_0_40px_rgba(139,92,246,0.2)];
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
+  }
+
+  .hero-model-aura {
+    background: linear-gradient(
+      135deg,
+      rgba(0, 245, 255, 0.35),
+      rgba(139, 92, 246, 0.28),
+      rgba(0, 245, 255, 0.12)
+    );
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.06),
+      0 24px 80px -20px rgba(0, 245, 255, 0.2),
+      0 24px 80px -20px rgba(139, 92, 246, 0.15),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #00f5ff, #8b5cf6);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #00d4e6, #7a4de2);
+}
