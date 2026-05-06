@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    q: 'Is this a real multi-page website?',
-    a: 'Yes. Each page is a separate route (About, Services, Pricing, etc.) instead of one long page.',
+    q: 'How long does shipping take?',
+    a: 'Most orders are delivered within 7 to 12 business days depending on your location.',
   },
   {
     q: 'Will it be mobile-friendly?',
