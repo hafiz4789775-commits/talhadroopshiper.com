@@ -16,20 +16,20 @@ const faqs = [
     a: 'Most orders are delivered within 7 to 12 business days depending on your location.',
   },
   {
-    q: 'Will it be mobile-friendly?',
-    a: 'Yes. Layout, spacing, font sizing, and motion are designed for mobile-first usability.',
+    q: 'Can I track my package?',
+    a: 'Yes! Once your order is shipped, you will receive a tracking number via email to monitor your delivery.',
   },
   {
-    q: 'Do you add animations?',
-    a: 'Yes. Framer Motion + GSAP are used for smooth reveals and interactions, with reduced-motion support.',
+    q: 'What is your return policy?',
+    a: 'We offer a 30-day money-back guarantee if the product is damaged or not as described.',
   },
   {
     q: 'Do you support 3D?',
     a: 'Yes. Three.js (via React Three Fiber) is used for interactive 3D sections, and Spline can be embedded if you provide a scene URL.',
   },
   {
-    q: 'Is it SEO friendly?',
-    a: 'Yes. Each route includes metadata, semantic structure, and clean internal linking.',
+    q: 'Are there any hidden charges?',
+    a: 'No, the price you see at checkout is final. Taxes and shipping (if applicable) are clearly shown.',
   },
 ] as const
 
