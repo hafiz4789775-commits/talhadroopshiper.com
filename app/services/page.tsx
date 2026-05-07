@@ -7,36 +7,36 @@ import SiteNavbar from '@/components/sections/SiteNavbar'
 import GsapReveal from '@/components/ui/GsapReveal'
 
 export const metadata: Metadata = {
-  title: 'Services',
+  title: 'Services | Dropshipping & E-commerce Solutions',
   description:
-    'Dropshipping services: storefront development, product sourcing, CRO, performance, and scaling support — built for mobile.',
+    'Professional dropshipping services: A-Z store creation, viral product sourcing, conversion optimization, and brand scaling strategies.',
 }
 
 const services = [
   {
     icon: Layers3,
-    title: 'Next.js storefront build',
-    body: 'Modern, fast, SEO-ready pages with clean structure and strong UX.',
+    title: 'A-Z Store Automation',
+    body: 'Complete setup of high-converting, automated Shopify stores designed for maximum sales.',
   },
   {
     icon: SearchCheck,
-    title: 'Product sourcing',
-    body: 'Find products with demand signals and clear supplier requirements.',
+    title: 'Viral Product Research',
+    body: 'Data-driven sourcing of winning products with high demand and solid profit margins.',
   },
   {
     icon: BarChart3,
-    title: 'CRO (conversion optimization)',
-    body: 'Improve add-to-cart, trust, and checkout intent with tests & fixes.',
+    title: 'Conversion Optimization',
+    body: 'Improving your checkout flow and trust signals to turn more visitors into loyal buyers.',
   },
   {
     icon: Box,
-    title: 'Landing pages & funnels',
-    body: 'Mobile-first, high-impact pages for ads and influencer traffic.',
+    title: 'Sales Funnels & Landing Pages',
+    body: 'High-impact, mobile-first pages built specifically for TikTok, FB, and Instagram ad traffic.',
   },
   {
     icon: Rocket,
-    title: 'Performance tuning',
-    body: 'Core Web Vitals focused: layout stability, speed, and smooth motion.',
+    title: 'Scaling & Ad Strategy',
+    body: 'Strategic guidance on Facebook/TikTok ads to scale your store from $0 to consistent revenue.',
   },
 ] as const
 
@@ -47,7 +47,7 @@ export default function ServicesPage() {
       <main className="min-h-screen">
         <PageHeader
           title="Services"
-          subtitle="Professional builds that feel premium, load fast, and convert on mobile."
+          subtitle="Everything you need to launch, manage, and scale a profitable dropshipping business."
         />
 
         <section className="px-4 py-16 md:px-8 lg:px-12">
@@ -75,16 +75,16 @@ export default function ServicesPage() {
         <section className="px-4 pb-24 md:px-8 lg:px-12">
           <div className="mx-auto max-w-6xl rounded-3xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent p-10 md:p-12">
             <h2 className="text-2xl font-black tracking-tight sm:text-3xl">
-              Mobile-first checklist
+              Success Checklist
             </h2>
             <ul className="mt-6 grid gap-3 text-sm text-gray-300 md:grid-cols-2">
               {[
-                'Thumb-friendly spacing & tap targets',
-                'Smooth animations with reduced-motion support',
-                'SEO-ready metadata and semantic headings',
-                'Fast images and layout stability',
-                'Clean internal page structure (not one long page)',
-                'Accessible color grading for readability',
+                'Vetted & Reliable Global Suppliers',
+                'High-converting Premium Store Design',
+                'Fast Fulfillment & Order Automation',
+                'Winning Product Selection Strategy',
+                'Optimized Mobile User Experience',
+                'Professional Branding & Trust Building',
               ].map(item => (
                 <li
                   key={item}
@@ -102,4 +102,3 @@ export default function ServicesPage() {
     </>
   )
 }
-
