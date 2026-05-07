@@ -8,37 +8,37 @@ const POSTS: Record<
   string,
   { title: string; description: string; body: string[] }
 > = {
-  'mobile-first-storefront': {
-    title: 'Mobile-first storefront: what actually converts',
+  'high-converting-store-design': {
+    title: 'High-converting store design: What actually drives sales',
     description:
-      'A practical checklist for converting mobile shoppers using clarity, trust cues, and speed.',
+      'A practical checklist for turning visitors into buyers using psychology, trust cues, and speed.',
     body: [
-      'Design for thumbs: clear CTAs, comfortable spacing, and readable type.',
-      'Build trust fast: reviews, shipping clarity, returns policy, and real product details.',
-      'Keep it fast: stable layout, optimized images, and minimal blocking scripts.',
-      'Use motion with care: micro-interactions improve understanding; avoid heavy effects on low-end phones.',
+      'Design for mobile-first buyers: Clear CTAs, easy navigation, and one-page checkout focus.',
+      'Instant trust signals: Use high-quality product images, authentic reviews, and transparent shipping policies.',
+      'Strategic product descriptions: Focus on benefits, not just features, to connect with the buyers emotions.',
+      'Speed is revenue: Every second of delay reduces conversion; keep your store lightweight and responsive.',
     ],
   },
-  'core-web-vitals': {
-    title: 'Core Web Vitals for e-commerce (simple wins)',
+  'winning-product-research': {
+    title: 'Finding winning products: The expert sourcing strategy',
     description:
-      'Improve LCP/CLS/INP without sacrificing a premium look and feel.',
+      'How to identify high-margin products with viral potential and low competition.',
     body: [
-      'Keep your hero lightweight: avoid huge images and render-blocking scripts.',
-      'Prevent CLS: reserve space for media, set image sizes, and avoid late-loading banners.',
-      'Optimize interaction: keep animations efficient and reduce work on scroll.',
-      'Measure in real devices: mobile performance is the baseline for buyers.',
+      'Analyze demand signals: Use social trends, search volume, and competitor ad performance to spot winners.',
+      'Verify supplier quality: Always vet suppliers for shipping speed, communication, and product consistency.',
+      'Look for the "Wow" factor: Successful products usually solve a problem or have a strong emotional appeal.',
+      'Test small, scale fast: Use data from small ad spends to identify which products deserve a larger budget.',
     ],
   },
-  'product-sourcing-basics': {
-    title: 'Product sourcing basics: reduce risk',
+  'scaling-with-paid-ads': {
+    title: 'Scaling your brand: TikTok and Facebook ad basics',
     description:
-      'A simple sourcing workflow: demand signals, supplier vetting, and fulfillment clarity.',
+      'A simple workflow for sourcing creatives and scaling your fulfillment as orders grow.',
     body: [
-      'Start with demand signals: search intent, repeatable creatives, and competitor positioning.',
-      'Vet suppliers: ask for timelines, real photos, QC process, and communication expectations.',
-      'Define fulfillment terms: packaging, tracking, refunds, and replacements before you scale.',
-      'Test small, then iterate: update your page and offers based on real buyer behavior.',
+      'Creative-first approach: In dropshipping, the best creative wins. Focus on UGC and scroll-stopping hooks.',
+      'Audience testing: Run broad and interest-based tests to find your ideal customer segments.',
+      'Automation is key: As orders increase, sync your store with reliable fulfillment partners to avoid delays.',
+      'Manage your margins: Track your ROAS (Return on Ad Spend) daily to ensure profitable growth.',
     ],
   },
 }
@@ -69,9 +69,9 @@ export default async function BlogPostPage({ params }: Props) {
           </h1>
           <p className="mt-5 text-lg text-gray-300">{post.description}</p>
 
-          <div className="mt-10 space-y-4">
+          <div className="mt-10 space-y-6">
             {post.body.map((p, idx) => (
-              <p key={idx} className="text-sm leading-relaxed text-gray-300">
+              <p key={idx} className="text-lg leading-relaxed text-gray-300 border-l-2 border-primary/30 pl-4">
                 {p}
               </p>
             ))}
@@ -84,4 +84,3 @@ export default async function BlogPostPage({ params }: Props) {
     </>
   )
 }
-
