@@ -5,27 +5,27 @@ import { CheckCircle2 } from 'lucide-react'
 
 const work = [
   {
-    title: 'Mobile-first storefront UI',
+    title: 'Automated Store Infrastructure',
     bullets: [
-      'Premium hero + product highlights',
-      'Smooth motion with accessibility',
-      'High contrast + modern gradients',
+      'End-to-end supply chain automation',
+      'High-converting premium Shopify theme',
+      'Seamless order fulfillment sync',
     ],
   },
   {
-    title: 'Conversion landing page',
+    title: 'Niche & Product Mastery',
     bullets: [
-      'Fast layout, clear CTAs',
-      'Trust blocks and benefit stacking',
-      'SEO structure with clean headings',
+      'Low-competition, high-margin research',
+      'Strategic product positioning & pricing',
+      'Competitor analysis & trend forecasting',
     ],
   },
   {
-    title: 'Interactive 3D product preview',
+    title: 'Sales & Marketing Scaling',
     bullets: [
-      'Three.js scene embedded in hero',
-      'Drag/hover interaction',
-      'Reduced-motion friendly',
+      'Viral TikTok & Facebook ad strategies',
+      'Conversion Rate Optimization (CRO)',
+      'Brand building & buyer trust signals',
     ],
   },
 ] as const
@@ -56,4 +56,3 @@ export default function PortfolioClient() {
     </section>
   )
 }
-
