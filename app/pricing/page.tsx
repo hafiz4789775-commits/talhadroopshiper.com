@@ -7,39 +7,39 @@ import SiteNavbar from '@/components/sections/SiteNavbar'
 import { SITE } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Pricing',
+  title: 'Pricing | Dropshipping Services',
   description:
-    'Clear pricing in PKR for dropshipping storefront builds and services.',
+    'Professional dropshipping store setup and e-commerce consulting pricing.',
 }
 
 const plans = [
   {
-    name: 'Starter Storefront',
+    name: 'Standard Store Setup',
     price: 'Custom quote',
     bullets: [
-      'Mobile-first multi-page structure',
-      'SEO-ready layout & metadata',
-      'Modern UI + smooth motion',
+      'Premium high-converting theme setup',
+      'Winning product integration (5-10 products)',
+      'Essential trust badges & apps setup',
     ],
     highlight: false,
   },
   {
-    name: 'Multan Dropshipping Code',
+    name: 'Multan Dropshipping Masterclass',
     price: `${SITE.offers.multanDropshippingCode.toLocaleString('en-US')} ${SITE.currency}`,
     bullets: [
-      'Delivery-focused setup guidance',
-      'Store presentation + trust layout',
-      'Optimized for mobile buyers',
+      '1-on-1 strategic sourcing guidance',
+      'Winning product research blueprint',
+      'Facebook & TikTok ads strategy',
     ],
     highlight: true,
   },
   {
-    name: 'Scale & Optimize',
+    name: 'Elite Growth & Scale',
     price: 'Custom quote',
     bullets: [
-      'CRO improvements & experiments',
-      'Performance tuning (Core Web Vitals)',
-      'Landing pages for campaigns',
+      'Full store management & automation',
+      'Advanced conversion rate optimization',
+      'Scaling strategies for global markets',
     ],
     highlight: false,
   },
@@ -52,7 +52,7 @@ export default function PricingPage() {
       <main className="min-h-screen">
         <PageHeader
           title="Pricing"
-          subtitle={`All pricing is shown in ${SITE.currency}. For exact scope, use the contact form.`}
+          subtitle={`Invest in your business. All pricing in ${SITE.currency}. Contact for custom packages.`}
         />
 
         <section className="px-4 py-16 md:px-8 lg:px-12">
@@ -104,4 +104,3 @@ export default function PricingPage() {
     </>
   )
 }
-
