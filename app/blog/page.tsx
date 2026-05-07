@@ -7,28 +7,28 @@ import PageHeader from '@/components/sections/PageHeader'
 import SiteNavbar from '@/components/sections/SiteNavbar'
 
 export const metadata: Metadata = {
-  title: 'Blog',
-  description: 'Short guides on dropshipping, CRO, and storefront performance.',
+  title: 'Blog | E-commerce & Dropshipping Insights',
+  description: 'Expert guides on dropshipping strategies, store optimization, and scaling ads.',
 }
 
 const posts = [
   {
-    slug: 'mobile-first-storefront',
-    title: 'Mobile-first storefront: what actually converts',
+    slug: 'high-converting-store-design',
+    title: 'High-converting store design: What actually drives sales',
     excerpt:
-      'Spacing, trust cues, speed, and clear CTAs. The practical checklist for buyers on phones.',
+      'A practical checklist for turning visitors into buyers using psychology, trust cues, and speed.',
   },
   {
-    slug: 'core-web-vitals',
-    title: 'Core Web Vitals for e-commerce (simple wins)',
+    slug: 'winning-product-research',
+    title: 'Finding winning products: The expert sourcing strategy',
     excerpt:
-      'How to improve speed and stability without sacrificing premium visuals and animation.',
+      'How to identify high-margin products with viral potential and low competition.',
   },
   {
-    slug: 'product-sourcing-basics',
-    title: 'Product sourcing basics: reduce risk',
+    slug: 'scaling-with-paid-ads',
+    title: 'Scaling your brand: TikTok and Facebook ad basics',
     excerpt:
-      'A straightforward approach to vetting suppliers and choosing products with real demand.',
+      'A simple workflow for sourcing creatives and scaling your fulfillment as orders grow.',
   },
 ] as const
 
@@ -39,7 +39,7 @@ export default function BlogIndexPage() {
       <main className="min-h-screen">
         <PageHeader
           title="Blog"
-          subtitle="Guides and notes to help you build, launch, and scale."
+          subtitle="Expert insights to help you build, launch, and scale your dropshipping brand."
         />
 
         <section className="px-4 py-16 md:px-8 lg:px-12">
@@ -68,4 +68,3 @@ export default function BlogIndexPage() {
     </>
   )
 }
-
