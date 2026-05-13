@@ -24,8 +24,8 @@ const faqs = [
     a: 'We offer a 30-day money-back guarantee if the product is damaged or not as described.',
   },
   {
-    q: 'Do you support 3D?',
-    a: 'Yes. Three.js (via React Three Fiber) is used for interactive 3D sections, and Spline can be embedded if you provide a scene URL.',
+    q: 'Will my store have a modern premium design?',
+    a: 'Yes. Every store is designed with a clean, mobile-first layout focused on trust, speed, and conversions to create a premium shopping experience.',
   },
   {
     q: 'Are there any hidden charges?',
